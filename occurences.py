@@ -13,6 +13,9 @@ def main():
    # Get user input and convert it into two lists 
    A = [num for num in input().split()]
    B = [num for num in input().split()]
+   
+   # Call to occurence()
+   occurence(A, B)
 
 if __name__ == "__main__":
    main()
